@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans Ms";
+    background-color: rgb(238,238,238);
+}
+
+/* header */
+
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#header-img img{
+    width:300px;
+    padding: 10px 0 10px 20px;
+    
+
+}
+
+#nav-bar{
+    width: 100%;
+}
+
+#nav-bar ul{
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 70px;
+    
+
+   
+}
+
+#nav-bar ul li{
+    display: inline;
+    padding: 20px 0px 0 100px ;
+    font-weight: 550;
+   
+   
+    
+    
+}
+
+.nav-link{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+ 
+}
+
+
+/* Email section  */
+
+#email-sec{
+    
+    padding-top: 100px;
+    text-align: center;
+    
+
+}
+
+#email-sec h2{
+    padding-bottom: 20px;
+}
+#email{
+
+ padding: 3px;
+ width: 300px;
+ height: 20px;
+ background-color: white;
+
+}
+
+#submit{
+    margin:  15px;
+    width: 150px;
+    padding: 3px 10px;
+    background-color: rgb(241,196,15);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+/* container class -- features */
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+#features{
+    padding-top: 20px;
+}
+
+.grid{
+    display: flex;
+    width: 95%;
+    padding-top: 50px;
+    
+   
+}
+
+.icon{
+    
+    padding-left: 100px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    /* margin-top:100px ; */
+    
+
+}
+
+.desc h2{
+   text-align: left;
+   margin-left: 70px;
+}
+
+.desc p{
+    text-align: left;
+   margin-left: 70px;
+
+}
+
+/* how-it-works */
+
+.how-it-works{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+ 
+.how-it-works iframe{
+    width: 100%;
+
+
+}
+
+
+
+
+
+/* Pricing  */
+ 
+.pricing{
+    display: flex;
+    flex-direction:row;
+    margin-top: 45px;
+    /* margin: 100px; */
+    
+    
+
+}
+
+.product{
+    width: 100%;
+    margin: 20px 20px; 
+    border: 2px solid;
+    text-align:center;
+}
+
+.product-name{
+/* display: flex; */
+
+/* flex-direction:column; */
+background-color:rgb(224, 167, 167);
+font-size: larger;
+font-weight: 600;
+padding: 10px;
+}
+
+.product-details{
+  padding: 10px;
+ 
+}
+
+.product-details h2{
+    padding: 10px;
+
+}
+
+.product-details p{
+  line-height: 30px;
+
+}
+
+#btn{
+    margin: 10px 0px 0px 20px ;
+    /* width: 80px; */
+    padding: 5px 25px ;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(241,196,15);
+    font-weight: 700;
+   font-size: 18px;
+
+}
+/* Footer */
+
+#footer ul{
+    padding:10px 10px 0 0;
+display: flex;
+flex-direction:row;
+justify-content: flex-end;
+background-color: rgb(221,221,221);
+
+
+/* padding-top: 100px; */
+
+}
+
+
+#footer ul li{
+    padding-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(221,221,221);
+
+
+
+}
+
+#footer ul li a{
+    /* padding-top: 10px; */
+    text-decoration: none;
+    text-align:right;
+    color: black;
+    background-color: rgb(221,221,221);
+
+
+
+  
+}
+
+#footer-nav-link{
+    padding-top: 40px;
+    /* margin-bottom: 100px; */
+    text-align: right;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+
+#footer p{
+background-color: rgb(221,221,221);
+padding: 0 10px 10px 0 ;
+
+}
+
+
+
+/* Media Query */
+
+@media (max-width:930px){
+    
+    .pricing{
+        display: flex;
+        flex-direction:column;
+        margin-top: 45px;
+        /* margin: 100px; */
+    }
+    
+    .product{
+        width: 50%;
+        margin: 20px auto;
+       
+    }
+
+}
